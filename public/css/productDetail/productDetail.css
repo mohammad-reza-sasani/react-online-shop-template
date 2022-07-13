@@ -1,0 +1,111 @@
+.product-detail-product-image-parent
+{
+    max-width: 700px;
+    min-width: 100;
+    margin: auto;
+    text-align: center;           
+    z-index: -5;
+    
+}
+.product-detail-product-image-parent img
+{
+    border-radius: 10px;
+}
+
+
+.product-detail-product-detail-parent
+{
+    background-color: #fff;
+    padding: 20px;
+    width: 97%;
+    height: 100%;
+    margin: auto;
+    text-align: right;    
+    border-radius: 20px 20px 20px 20px ;
+    position: relative;
+    z-index: 0;
+    margin-top: 15px;
+    
+}
+.product-detail-name-product
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;    
+}
+
+.product-detail-product-detail
+{
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.product-detail-teacher-name
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.product-detail-add-cart-button
+{
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    display: block;    
+}
+.product-detail-price-product-parent
+{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    
+}
+.product-detail-price-product-text
+{
+    font-size: 15px;
+    font-weight: bold;    
+    float: right;        
+    text-align: center;
+}
+.product-detail-price-product-text-price
+{
+    
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: line-through;
+    float: right;   
+    color: rgb(146, 0, 0);    
+    margin-right: 10px;
+}
+.product-detail-price-product-text-price-offer
+{    
+    font-size: 20px;
+    font-weight: bold;    
+    float: right;    
+    color: rgb(16, 190, 0);    
+    margin-right: 10px;
+
+}
+
+
+@media (min-width: 767.98px) 
+{
+    .product-detail-product-detail-parent
+    {        
+        padding-left: 100px;   
+        padding-right: 100px;   
+    }
+}
+
+
+@media (max-width: 767.98px) 
+{
+    .product-detail-product-detail-parent
+    {
+        width: 100%;                 
+    }
+}
